@@ -1,0 +1,111 @@
+{
+    "name": "ODIN",
+    "scopeName": "text.odin",
+    "fileTypes": ["adls", "bmm"],
+    "patterns": [{
+        "match": "(--\\s*.+)$",
+        "name": "comment",
+        "captures": {
+            "1": {
+                "name": "comment"
+            }
+        }
+    }, {
+        "match": "(\\w+)\\s+=",
+        "name": "keyword",
+        "captures": {
+            "1": {
+                "name": "keyword"
+            }
+        }
+    }, {
+        "match": "^\\s+([\\w\\-.]+)",
+        "name": "constant",
+        "captures": {
+            "1": {
+                "name": "constant"
+            }
+        }
+    }, {
+        "match": "\\s+\\[([\\w\\-.]+)\\]",
+        "name": "constant",
+        "captures": {
+            "1": {
+                "name": "constant"
+            }
+        }
+    }, {
+        "match": "^\\s+([\\w\\d]+)\\s+=",
+        "name": "entity",
+        "captures": {
+            "1": {
+                "name": "entity"
+            }
+        }
+    }, {
+        "match": "<\\[(.+)\\]>",
+        "name": "string",
+        "captures": {
+            "1": {
+                "name": "string"
+            }
+        }
+    }, {
+        "match": "\\[(\\w\\w\\d.+)\\]",
+        "name": "support.function",
+        "captures": {
+            "1": {
+                "name": "support.function"
+            }
+        }
+    }, {
+        "match": "\"(\\w\\w\\d.+)\"",
+        "name": "support.function",
+        "captures": {
+            "1": {
+                "name": "support.function"
+            }
+        }
+    }, {
+        "match": "\\((.+)\\)",
+        "name": "string",
+        "captures": {
+            "1": {
+                "name": "string"
+            }
+        }
+    }, {
+        "match": "<(\\w+)>",
+        "name": "string",
+        "captures": {
+            "1": {
+                "name": "string"
+            }
+        }
+    }, {
+        "match": "<\\|(.+)\\|>",
+        "name": "string",
+        "captures": {
+            "1": {
+                "name": "string"
+            }
+        }
+    }, {
+        "match": "\\{(.+)\\}",
+        "name": "string",
+        "captures": {
+            "1": {
+                "name": "string"
+            }
+        }
+    }, {
+        "match": "\"(.+)\"",
+        "name": "string.literal",
+        "captures": {
+            "1": {
+                "name": "string.literal"
+            }
+        }
+    }],
+    "uuid": "70d8d002-ea2b-476c-8246-cc6ab1b46d68"
+}

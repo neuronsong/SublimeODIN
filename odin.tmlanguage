@@ -35,7 +35,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\w+)\s+=</string>
+			<string>\s*(\w+)\s+=</string>
 			<key>name</key>
 			<string>keyword</string>
 		</dict>

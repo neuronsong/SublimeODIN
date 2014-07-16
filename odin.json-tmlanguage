@@ -51,7 +51,7 @@
             }
         }
     }, {
-        "match": "\\[(\\w\\w\\d.+)\\]",
+        "match": "\\[(\\w\\w\\d.*)\\]",
         "name": "support.function",
         "captures": {
             "1": {
@@ -59,7 +59,7 @@
             }
         }
     }, {
-        "match": "\"(\\w\\w\\d.+)\"",
+        "match": "\"(\\w\\w\\d.*)\"",
         "name": "support.function",
         "captures": {
             "1": {

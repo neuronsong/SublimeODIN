@@ -1,7 +1,7 @@
 SublimeODIN
 ===========
 
-At the moment this provides simple syntax highlighting for ODIN format (.adls, .bmm, etc...) files.
+Simple syntax highlighting for ODIN format (.adls, .bmm, etc...) files.
 
 ## Installing in Sublime Text 2
 

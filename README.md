@@ -3,11 +3,11 @@ SublimeODIN
 
 Simple syntax highlighting for ODIN format (.adls, .bmm, etc...) files.
 
-## Installing in Sublime Text 2
-
-**With Git:** Clone the repository into your Sublime Text "Packages" directory with:
+**With Git:** Clone the repository into your Sublime Text X "Packages" directory with:
 
     git clone git://github.com/neuronsong/SublimeODIN.git ODIN
+
+## Installing in Sublime Text 2
 
 "Packages" directory locations:
 
@@ -20,4 +20,11 @@ Simple syntax highlighting for ODIN format (.adls, .bmm, etc...) files.
 
 ## Installing in Sublime Text 3
 
-In progress...
+"Packages" directory locations:
+
+* OS X: ~/Library/Application Support/Sublime Text 3/Packages/
+
+* Linux: ~/.Sublime Text 3/Packages/
+
+* Windows: %APPDATA%/Sublime Text 3/Packages/
+
